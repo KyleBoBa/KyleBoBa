@@ -140,6 +140,9 @@ nav .fa{
 	color:#fff;
 	background:#008dad;
 }
+.justify{
+	text-align:justify;
+}
 .video{
 	display:flex;
 	justify-content:center;
