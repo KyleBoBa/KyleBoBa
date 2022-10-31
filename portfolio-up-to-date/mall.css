@@ -140,9 +140,6 @@ nav .fa{
 	color:#fff;
 	background:#008dad;
 }
-.justify{
-	text-align:justify;
-}
 .video{
 	display:flex;
 	justify-content:center;
@@ -289,6 +286,9 @@ form button{
 	.timeline{
 		flex-direction:column;
 		align-content:center;
+	}
+	.justify{
+		text-align:justify;
 	}
 	.video{
 		flex-direction:column;
