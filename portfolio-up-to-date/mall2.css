@@ -1,0 +1,122 @@
+html, body{
+	background-image: url("bilder/background_1.jpg");
+	background-color: #cccccc;
+	height:100%;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+.container{
+	display:flex;
+	flex-direction:column;
+	gap:20px;
+}
+.first_sec{
+	display: flex;
+	justify-content: space-between;
+	background:rgba(255,255,255,0.6);
+	border:2px solid black;
+	padding:10px;
+}
+.info{
+	color:white;
+	background:#008dad;
+	border:1px solid black;
+	padding:5px;
+	text-align:center;
+	height:100%;
+	border-radius:20px 20px 5px 5px;
+	width:15%;
+}
+.intro{
+	border-bottom: 200px solid #008dad;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 200px;
+	font-size:50px;
+	line-height:0.1;
+	color:white;
+	text-align:center;
+	align-self:center;
+	text-shadow:1px 1px lightgray;
+}
+
+nav>a{
+	color:white;
+	background:#008dad;
+	border:1px solid black;
+	border-radius:5px;
+	padding:10px;
+	text-decoration:none;
+	margin:10px;
+}
+nav{
+	align-self:center;
+	font-family: 'Montserrat', sans-serif;
+	width:20%;
+	text-transform:uppercase;
+	position:relative;
+	letter-spacing:0;
+}
+nav>a:hover,.active{
+	background:lightgray;
+	letter-spacing:3px;
+}
+.active{
+	background:gray;
+}
+.second_sec{
+	background:white;
+	border:2px solid black;
+	padding:10px;
+	background:rgba(255, 255, 255, 0.6);
+}
+.timeline{
+	display:flex;
+}
+.events{
+	color:white;
+	background:#008dad;
+	border:1px solid black;
+	padding:5px;
+	align-self:center;
+	font-size:10px;
+	margin-left:30px;
+}
+.video{
+	display:flex;
+	justify-content:space-between;
+}
+.heading2{
+	color:white;
+	background:#008dad;
+	border:1px solid black;
+	padding:5px;
+	justify-content:flex-end;
+}
+.kontakt_box{
+	display:flex;
+	border:1px solid black;
+}
+.links{
+	font-size:20px;
+	color:white;
+	text-shadow:1px 1px lightgray;
+	background:#008dad;
+	padding-right:30px;
+	padding-left:5px;
+	word-spacing:20px;
+}
+.link-white{
+	color:white;
+}
+.map_outer{
+	border-left:1px solid black;
+	border-right:1px solid black;
+	background:#008dad;
+	padding-left:30px;
+	padding-right:30px;
+}
+@import url('http://fonts.cdnfonts.com/css/montserrat');
