@@ -5,6 +5,9 @@ html, body{
 	height:100%;
 	margin:0px;
 }
+p{
+	text-align:justify;
+}
 button:hover{
 	cursor:pointer;
 }
@@ -100,6 +103,13 @@ nav .fa{
 	background:rgba(255, 255, 255, 0.9);
 	gap:20px;
 }
+.heading2{
+	color:white;
+	background:#008dad;
+	border:1px solid black;
+	padding:5px;
+	justify-content:flex-end;
+}
 .arbete{
 	display:flex;
 }
@@ -116,6 +126,9 @@ nav .fa{
 }
 .timeline{
 	display:flex;
+}
+.y.proximity-scroll-snapping {
+  scroll-snap-type: y proximity;
 }
 .event{
 	margin-left:40px;
@@ -144,12 +157,9 @@ nav .fa{
 	display:flex;
 	justify-content:center;
 }
-.heading2{
-	color:white;
-	background:#008dad;
-	border:1px solid black;
-	padding:5px;
-	justify-content:flex-end;
+iframe{
+	width:33vw;
+	height:45vh;
 }
 .kontakt{
 	display:flex;
