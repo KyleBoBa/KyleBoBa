@@ -18,5 +18,7 @@ I'm Kyle, a 21 year old student at KTH Royal Institute of Technology in Stockhol
       <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
     </a>
   </div>
-  [![](https://visitcount.itsvg.in/api?id=kyleboba&icon=2&color=1)](https://visitcount.itsvg.in)
+  <div align="center">
+    <a href="https://abacus.jasoncameron.dev" target="_blank"> <img src="https://abacus.jasoncameron.dev/hit/kyleboba/github/shield?font=jetbrains-mono&text=visits&bgcolor=e59b4f&color=48ACF0" /> </a>
+  </div> 
 </div>
